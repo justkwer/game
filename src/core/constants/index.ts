@@ -1,0 +1,1 @@
+export { PathsToPage } from './router';
