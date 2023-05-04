@@ -2913,6 +2913,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eventemitter3@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "eventemitter3@npm:5.0.1"
+  checksum: 543d6c858ab699303c3c32e0f0f47fc64d360bf73c3daf0ac0b5079710e340d6fe9f15487f94e66c629f5f82cd1a8678d692f3dbb6f6fcd1190e1b97fcad36f8
+  languageName: node
+  linkType: hard
+
 "execa@npm:^5.0.0":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
@@ -3174,6 +3181,7 @@ __metadata:
     jest: ^29.5.0
     jest-environment-jsdom: ^29.5.0
     next: ^13.3.4
+    phaser: ^3.60.0
     prettier: 2.8.8
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -5266,6 +5274,15 @@ __metadata:
   version: 4.0.0
   resolution: "path-type@npm:4.0.0"
   checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
+  languageName: node
+  linkType: hard
+
+"phaser@npm:^3.60.0":
+  version: 3.60.0
+  resolution: "phaser@npm:3.60.0"
+  dependencies:
+    eventemitter3: ^5.0.0
+  checksum: 5045501cb61e6aa1b363ba41ba97e3810ba4157af9401a51082994cd6b79252bcdc9d688053600005ca95b4f20cfa473a9dd6cefafba3bf8dfd437e3c9b5ae2f
   languageName: node
   linkType: hard
 

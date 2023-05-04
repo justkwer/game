@@ -53,6 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:29.5.0"],\
             ["jest-environment-jsdom", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:29.5.0"],\
             ["next", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:13.3.4"],\
+            ["phaser", "npm:3.60.0"],\
             ["prettier", "npm:2.8.8"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:18.2.0"],\
@@ -4063,6 +4064,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["eventemitter3", [\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/eventemitter3-npm-5.0.1-5e423b7df3-543d6c858a.zip/node_modules/eventemitter3/",\
+          "packageDependencies": [\
+            ["eventemitter3", "npm:5.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["execa", [\
         ["npm:5.1.1", {\
           "packageLocation": "./.yarn/cache/execa-npm-5.1.1-191347acf5-fba9022c8c.zip/node_modules/execa/",\
@@ -4346,6 +4356,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:29.5.0"],\
             ["jest-environment-jsdom", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:29.5.0"],\
             ["next", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:13.3.4"],\
+            ["phaser", "npm:3.60.0"],\
             ["prettier", "npm:2.8.8"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:577724396144cc465e389989105486c3029be02bf4a064b803a77c015f40ff112e2d133e5734cc7d10d0087738ba9b745dd98b662f765dab95bb36265dcf8f02#npm:18.2.0"],\
@@ -6737,6 +6748,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/path-type-npm-4.0.0-10d47fc86a-5b1e2daa24.zip/node_modules/path-type/",\
           "packageDependencies": [\
             ["path-type", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["phaser", [\
+        ["npm:3.60.0", {\
+          "packageLocation": "./.yarn/cache/phaser-npm-3.60.0-169ff95b0f-5045501cb6.zip/node_modules/phaser/",\
+          "packageDependencies": [\
+            ["phaser", "npm:3.60.0"],\
+            ["eventemitter3", "npm:5.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
