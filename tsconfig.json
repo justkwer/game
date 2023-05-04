@@ -22,6 +22,9 @@
     "baseUrl": "src",
     "incremental": true,
     "paths": {
+      "@public": [
+        "../public"
+      ],
       "@components": [
         "components"
       ],
@@ -36,7 +39,7 @@
       ],
       "@layout": [
         "layout"
-      ]
+      ],
     }
   },
   "include": [
