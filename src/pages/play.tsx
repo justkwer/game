@@ -12,5 +12,5 @@ const Play = () => {
     </GameLayout>
   );
 };
-
+  
 export default Play;
