@@ -1,0 +1,3 @@
+{
+  "**/*.{ts,tsx}": ["yarn run eslint", "yarn prettier --write src/**/*.ts{,x} --cache --cache-location=.yarn/.cache/.prettier-cache"]
+}

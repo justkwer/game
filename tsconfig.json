@@ -20,6 +20,7 @@
     "noEmit": true,
     "jsx": "preserve",
     "baseUrl": "src",
+    "outDir": ".yarn/.cache",
     "incremental": true,
     "paths": {
       "@components": [
@@ -43,6 +44,7 @@
     "src"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "public"
   ]
 }
